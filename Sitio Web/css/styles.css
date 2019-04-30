@@ -21,4 +21,38 @@ html {
 	margin-bottom: 50px;
 	margin-top: 50px;
 }
+/*Centrar el div "header"*/
+#header{
+  margin: auto;
+  width: 500px;
+  font-family: Arial;
+  background-color:transparent;
 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+/*Estilos de la clase "nav"*/
+/*Elementos de los elemento "a" en "li"*/
+.nav li a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding:10px 15px;
+  display: block;
+  border: 2px;
+  border-radius: 500px, left;
+}
+/*Elementos "li"*/
+.nav > li{
+  float:left;
+
+}
+/*Color de la seleccion*/
+.nav li a:hover{
+  background-color: #cccccc;
+}
