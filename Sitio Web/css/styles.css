@@ -1,0 +1,24 @@
+html {
+	background-color: #313c49;
+	background-image: url('fondo.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;s
+}
+
+#banner_principal{
+	display:block;
+	margin:auto;
+}
+
+#imagen_contacto{
+	display:block;
+	margin:auto;
+}
+
+.Banner{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
