@@ -241,3 +241,44 @@ footer{
   clear:both;
   color: white;
 }
+
+/*Team Box - Conocenos*/
+#box_team_01{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.box_team{
+  width: 350px;
+  height: 265px;
+  background-color: white;
+  border-bottom: 10px solid #f9b233;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial;
+  color:#313c49;
+}
+
+.box_team .icon_team{
+  margin: auto;
+  position: relative;
+  top:-75px;
+
+}
+
+.box_team h1{
+  font-size: 24px;
+  margin-top: -75px;
+}
+
+.box_team h3{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.box_team p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
