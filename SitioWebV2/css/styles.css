@@ -102,7 +102,7 @@ nav li b:hover{
   color: #f9b233;
 }
 #conocenos{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 #infoConocenos{
   margin-top:50px;
@@ -168,9 +168,14 @@ nav li b:hover{
 
 }
 
+#contactanos{
+  clear: both;
+}
+
 /*Formulario*/
 #formulario{
   float: right;
+  margin-bottom: 30px;
 }
 
 form .form-header h1{
@@ -244,11 +249,34 @@ footer{
 
 /*Team Box - Conocenos*/
 #box_team_01{
-  margin-top: 100px;
+  margin-top: 110px;
   margin-bottom: 10px;
+  float: left;
+  margin-left: 100px;
 }
 
-.box_team{
+#box_team_02{
+  margin-top: 110px;
+  margin-bottom: 10px;
+  float: right;
+  margin-right: 100px;
+}
+
+#box_team_03{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  float: left;
+  margin-left: 100px;
+}
+
+#box_team_04{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  float: right;
+  margin-right: 100px;
+}
+
+.box_team{ 
   width: 350px;
   height: 265px;
   background-color: white;
@@ -281,4 +309,38 @@ footer{
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 14px;
+}
+
+.book_team{
+  transition: transform 0.5s ease;
+}
+
+.book_team:hover{
+  transform: scale(1.5);
+}
+
+.video_team{
+  transition: transform 0.5s ease;
+  transform: scale(0.5);
+  margin: -30px -50px;
+}
+
+.video_team:hover{
+  transform: scale(0.75);
+}
+
+/*footer*/
+.footer{
+  border-radius: 30px;
+  height: 50px;
+  background: #1d3d52;
+  border-top: 5px solid #f9b233;
+}
+
+.footer h1{
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  line-height: 45px;
 }
